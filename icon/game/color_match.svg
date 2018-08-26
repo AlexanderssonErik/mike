@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1"
+	 xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;" i:viewOrigin="0 0" i:rulerOrigin="0 229" i:pageBounds="0 0 231 -229"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="231px" height="229px" viewBox="0 0 231 229" enable-background="new 0 0 231 229" xml:space="preserve">
+<metadata>
+	<variableSets  xmlns="&ns_vars;">
+		<variableSet  locked="none" varSetName="binding1">
+			<variables></variables>
+			<v:sampleDataSets  xmlns:v="&ns_vars;" xmlns="&ns_custom;"></v:sampleDataSets>
+		</variableSet>
+	</variableSets>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  x="-8076" y="-8306" width="16383" height="16383" bottomLeftOrigin="true"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g id="Alignment" i:layer="yes" i:dimmedPercent="50" i:rgbTrio="#4F00FFFF4F00">
+</g>
+<g id="graphic_layer" i:layer="yes" i:dimmedPercent="50" i:rgbTrio="#FFFF4F004F00">
+	<polygon i:knockout="Off" fill="none" stroke="#FFFFFF" stroke-width="4.7934" stroke-miterlimit="10" points="87.999,101.105 
+		87.999,89.94 110.697,89.986 110.697,101.06 120.209,101.105 120.209,89.94 143,89.711 143,101.105 147.319,101.105 
+		147.319,139.613 83.68,139.613 83.68,101.105 	"/>
+	<g>
+		<path i:knockout="Off" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" d="
+			M185.868,185.408c18.706-18.709,29.215-44.08,29.215-70.538"/>
+		<path i:knockout="Off" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" d="
+			M115.336,214.623c26.453,0,51.825-10.513,70.532-29.215"/>
+		<path i:knockout="Off" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" d="
+			M44.803,185.408c18.705,18.702,44.076,29.215,70.533,29.215"/>
+		<path i:knockout="Off" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" d="
+			M15.587,114.871c0,26.458,10.509,51.829,29.216,70.538"/>
+		<path i:knockout="Off" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" d="
+			M44.803,44.342c-18.707,18.705-29.216,44.075-29.216,70.528"/>
+		<path i:knockout="Off" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" d="
+			M115.336,15.126c-26.457,0-51.828,10.509-70.533,29.216"/>
+		<path i:knockout="Off" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" d="
+			M185.868,44.342c-18.707-18.708-44.079-29.216-70.532-29.216"/>
+		<path i:knockout="Off" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" d="
+			M215.083,114.871c0-26.453-10.509-51.824-29.215-70.528"/>
+		<path i:knockout="Off" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" d="
+			M150.601,150.139c9.354-9.35,14.607-22.037,14.607-35.268"/>
+		<path i:knockout="Off" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" d="
+			M115.336,164.747c13.227,0,25.911-5.254,35.265-14.608"/>
+		<path i:knockout="Off" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" d="
+			M80.068,150.139c9.354,9.354,22.039,14.608,35.268,14.608"/>
+		<path i:knockout="Off" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" d="
+			M65.462,114.871c0,13.231,5.253,25.918,14.606,35.268"/>
+		<path i:knockout="Off" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" d="
+			M80.068,79.607c-9.353,9.354-14.606,22.041-14.606,35.264"/>
+		<path i:knockout="Off" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" d="
+			M115.336,64.999c-13.229,0-25.914,5.255-35.268,14.608"/>
+		<path i:knockout="Off" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" d="
+			M150.601,79.607c-9.354-9.354-22.038-14.608-35.265-14.608"/>
+		<path i:knockout="Off" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" d="
+			M165.208,114.871c0-13.223-5.254-25.91-14.607-35.264"/>
+		
+			<line i:knockout="Off" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" x1="115.336" y1="64.999" x2="115.336" y2="15.126"/>
+		
+			<line i:knockout="Off" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" x1="80.068" y1="79.607" x2="44.803" y2="44.342"/>
+		
+			<line i:knockout="Off" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" x1="65.462" y1="114.871" x2="15.587" y2="114.871"/>
+		
+			<line i:knockout="Off" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" x1="80.068" y1="150.139" x2="44.803" y2="185.408"/>
+		
+			<line i:knockout="Off" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" x1="115.336" y1="164.747" x2="115.336" y2="214.623"/>
+		
+			<line i:knockout="Off" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" x1="150.601" y1="150.139" x2="185.868" y2="185.408"/>
+		
+			<line i:knockout="Off" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" x1="165.208" y1="114.871" x2="215.083" y2="114.871"/>
+		
+			<line i:knockout="Off" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" x1="150.601" y1="79.607" x2="185.868" y2="44.342"/>
+	</g>
+</g>
+</svg>

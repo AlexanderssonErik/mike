@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="231px" height="229px"
+	 viewBox="0 0 231 229" enable-background="new 0 0 231 229" xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  height="16383" width="16383" y="-8306" x="-8076" bottomLeftOrigin="true"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g id="compass_icon">
+</g>
+<g id="Layer_3">
+</g>
+<g id="Layer_4">
+	<g>
+		<path fill="#FFFFFF" d="M114.811,125.502c-5.579,5.471-11.377,11.486-20.347,11.486c-9.189,0-15.643-6.673-15.643-15.971
+			c0-8.751,7.001-16.19,16.518-16.19c8.204,0,14.221,6.345,19.472,11.595c5.578-5.579,11.376-11.595,20.347-11.595
+			c9.188,0,15.643,6.673,15.643,16.19c0,8.532-7.001,15.971-16.628,15.971C126.077,136.988,120.061,130.645,114.811,125.502z
+			 M110.435,121.018c-4.267-3.938-8.751-9.736-15.096-9.736c-5.47,0-9.626,4.485-9.626,9.736c0,5.469,3.938,9.517,9.408,9.517
+			C101.246,130.534,106.277,125.283,110.435,121.018z M143.908,121.018c0-5.579-3.938-9.736-9.298-9.736
+			c-6.235,0-11.268,5.47-15.425,9.736c4.267,3.828,8.752,9.517,15.205,9.517C139.751,130.534,143.908,126.158,143.908,121.018z"/>
+	</g>
+	<polygon fill="none" stroke="#FFFFFF" stroke-width="6" stroke-miterlimit="10" points="46.889,81.342 46.889,54.032 
+		102.41,54.032 102.41,81.23 125.674,81.23 125.674,54.032 181.42,54.032 181.42,81.342 191.982,81.342 191.982,175.529 
+		36.324,175.529 36.324,81.342 	"/>
+</g>
+</svg>
