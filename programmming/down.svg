@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1"
+	 xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;" i:viewOrigin="0 0" i:rulerOrigin="0 229" i:pageBounds="0 0 231 -229"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="231px" height="229px" viewBox="0 0 231 229" enable-background="new 0 0 231 229" xml:space="preserve">
+<metadata>
+	<variableSets  xmlns="&ns_vars;">
+		<variableSet  locked="none" varSetName="binding1">
+			<variables></variables>
+			<v:sampleDataSets  xmlns:v="&ns_vars;" xmlns="&ns_custom;"></v:sampleDataSets>
+		</variableSet>
+	</variableSets>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  x="-8076" y="-8306" width="16383" height="16383" bottomLeftOrigin="true"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g id="Alignment" i:layer="yes" i:dimmedPercent="50" i:rgbTrio="#4F00FFFF4F00">
+</g>
+<g id="graphic_layer" i:layer="yes" i:dimmedPercent="50" i:rgbTrio="#FFFF4F004F00">
+	<polyline i:knockout="Off" fill="#FFFFFF" points="144.023,41.746 144.023,52.675 144.023,41.746 	"/>
+	<rect x="86.344" y="41.746" i:knockout="Off" fill="#FFFFFF" width="57.68" height="10.929"/>
+	<polyline i:knockout="Off" fill="#FFFFFF" points="86.5,129.179 60.617,129.179 115.262,183.823 169.906,129.179 144.023,129.179 
+		144.023,96.392 86.344,96.392 86.344,129.179 	"/>
+	<polyline i:knockout="Off" fill="#FFFFFF" points="144.023,79.998 86.344,79.998 86.344,63.604 144.023,63.604 144.023,79.998 
+		144.023,63.604 	"/>
+	<path i:knockout="Off" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M143.369,43.216"/>
+</g>
+</svg>
