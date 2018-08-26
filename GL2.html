@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>bilo</title>
+
+    <script src="earcut.js"></script>
+    <script src="https://cdn.babylonjs.com/babylon.max.js"></script>
+    <script src="https://preview.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+    <script src="https://code.jquery.com/pep/0.4.3/pep.js"></script>
+    <script src="https://cdn.babylonjs.com/gui/babylon.gui.min.js"></script>
+    <script src="babylon.inspector.bundle.js"></script>
+    
+
+
+    <script src="global.js"></script>
+    <script src="camera.js"></script>
+   <!-- <script src="button.js"></script>-->
+    <script src="block.js"></script>
+    <!--<script src="algoBlock.js"></script>
+    <script src="blockPixel.js"></script>
+    <script src="algoBlockPixel.js"></script>
+    <script src="projection.js"></script>
+    <script src="projectionPixel.js"></script>
+    <script src="algoProjection.js"></script>
+   -->
+    <script src="world.js"></script>
+  
+    <script src="base.js"></script>
+    <!--<script src="basePlane.js"></script>
+    <script src="blockodile.js"></script>
+    <script src="numbers.js"></script>
+    
+    <script src="animateWinning.js"></script>
+    
+
+    <script src="guiSettings.js"></script>
+    <script src="guiColorSelect.js"></script>    
+    <script src="compass.js"></script>
+    <script src="game.js"></script>
+    <script src="guiGame.js"></script>
+    <script src="activeGame.js"></script>
+
+    <script src="help.js"></script>
+
+    <script src="guidedBuild.js"></script>
+    <script src="guidedBuildLevel.js"></script>
+    
+    <script src="tangram.js"></script>
+    <script src="tangramLevel.js"></script>
+
+    <script src="tangramFree.js"></script>
+    <script src="tangramFreeLevel.js"></script>
+
+    <script src="shapeHunter.js"></script>
+    <script src="shapeHunterLevel.js"></script>
+
+    <script src="colorMatch.js"></script>
+    <script src="colorMatchLevel.js"></script>
+
+    <script src="memo.js"></script>
+    <script src="memoLevel.js"></script>
+   -->
+  <!--   <script src="tetris.js"></script>
+    <script src="tetrisLevel.js"></script>
+
+    <script src="columns.js"></script>
+    <script src="columnsLevel.js"></script>-->
+
+<!--
+    <script src="math.js"></script>
+    <script src="mathLevel.js"></script>
+
+    <script src="tangram2D.js"></script>
+    <script src="tangram2DLevel.js"></script>
+
+    <script src="guiPaint.js"></script>
+
+    <script src="freeBuild.js"></script>
+    <script src="freeBuildLevel.js"></script>
+
+    <script src="sound.js"></script>
+
+    <script src="readCode.js"></script>
+    <script src="readCodeLevel.js"></script>
+    
+    <script src="guiProgramming.js"></script>
+
+
+     <script src="programming.js"></script>
+    <script src="programmingLevel.js"></script>
+    <script src="programmingButton.js"></script>
+-->
+
+    <style>
+
+html,body, can {
+		width:100%;
+		height:100%;
+		padding:0;
+		margin:0;
+		overflow:hidden;
+       
+	}
+	
+	
+	#renderCanvas {
+		width: 100%;
+		height: 100%;
+        touch-action: none;      
+	
+	}
+
+    </style>
+
+ <!-- <script src="https://cdn.babylonjs.com/babylon.js"></script>  -->
+ <!-- <script src="https://code.jquery.com/pep/0.4.1/pep.js"></script> -->
+
+
+ </head>
+ <body>
+    <canvas id="renderCanvas" touch-action="none"></canvas>
+
+    <script>
+  
+      /*var config = {
+        apiKey: "AIzaSyB2UATJ_B_QiXUjPvtJMedYtQJ8lIpIXK4",
+        authDomain: "bilo-718c9.firebaseapp.com",
+        //databaseURL: "https://bilo-718c9.firebaseio.com",
+        projectId: "bilo-718c9",
+        //storageBucket: "bilo-718c9.appspot.com",
+        //messagingSenderId: "734900828659"
+      };
+      firebase.initializeApp(config);*/
+
+/*
+var config = {
+    apiKey: "AIzaSyAYJgJb07yCtFdoQKEcxuNHH7qe_aX2hq4",
+    authDomain: "bilo-d71d2.firebaseapp.com",
+    //databaseURL: "https://bilo-d71d2.firebaseio.com",
+    projectId: "bilo-d71d2",
+    //storageBucket: "bilo-d71d2.appspot.com",
+    //messagingSenderId: "699058898703"
+  };
+  firebase.initializeApp(config);
+
+  */
+/*
+var provider = new firebase.auth.GoogleAuthProvider();
+
+//console.log("provider: " + provider);
+//console.log("result.credential.accessToken: " + provider.credential.accessToken);
+
+firebase.auth().signInWithPopup(provider).then(function(result) {
+  // This gives you a Google Access Token. You can use it to access the Google API.
+  var token = result.credential.accessToken;
+  console.log("token: " + token);
+  // The signed-in user info.
+  var user = result.user;
+  console.log("user: " + user);
+  // ...
+}).catch(function(error) {
+  // Handle Errors here.
+  var errorCode = error.code;
+  var errorMessage = error.message;
+  // The email of the user's account used.
+  var email = error.email;
+  // The firebase.auth.AuthCredential type that was used.
+  var credential = error.credential;
+  console.log("error: ");
+  // ...
+});
+*/
+/*
+firebase.auth().getRedirectResult().then(function(result) {
+  if (result.credential) {
+    // This gives you a Google Access Token. You can use it to access the Google API.
+    var token = result.credential.accessToken;
+    console.log("token: " + token);
+    // ...
+  }
+  // The signed-in user info.
+  var user = result.user;
+}).catch(function(error) {
+    console.log("error");
+  // Handle Errors here.
+  var errorCode = error.code;
+  var errorMessage = error.message;
+  // The email of the user's account used.
+  var email = error.email;
+  // The firebase.auth.AuthCredential type that was used.
+  var credential = error.credential;
+  // ...
+  firebase.auth().signInWithRedirect(provider);
+});*/
+
+
+
+
+
+
+
+
+
+
+  /*    var db = firebase.firestore();
+
+      db.collection("users").add({
+    first: "Ada",
+    last: "Lovelace",
+    born: 1815
+})
+.then(function(docRef) {
+    console.log("Document written with ID: ", docRef.id);
+})
+.catch(function(error) {
+    console.error("Error adding document: ", error);
+});*/
+   
+  
+ 
+   
+
+   
+        
+        let fpsCounter = 0;
+        let textBattery;
+
+        let textFps;
+        let fpsTimeOut;
+        let guiFps = 60;
+
+
+
+
+
+
+
+/*
+
+        ^
+        X
+        |
+<Z------0
+//front
+
+*/
+
+
+base.ledSetLeft(globalWorldColor.cyan);
+    base.ledSetRight(globalWorldColor.magenta);
+
+       
+        var canvas = document.getElementById("renderCanvas");
+        var engine = new BABYLON.Engine(canvas, true);//, {}, true);
+//        engine.fovMode =FOVMODE_HORIZONTAL_FIXED; //FOVMODE_VERTICAL_FIXED
+
+        var biloScene = new BABYLON.Scene(engine);
+
+        BABYLON.DebugLayer.InspectorURL = 'https://rawgit.com/AlexanderssonErik/0827/master/babylon.inspector.bundle.js';
+
+       /* biloScene.debugLayer.show({popup:true, 
+    initialTab : 1 });*/
+        //biloScene.debugLayer.show({popup:true});
+      
+        biloScene.clearColor  = new BABYLON.Color3(1, 1, 1);
+        biloScene.clearColor  = new BABYLON.Color3(0.7, 0.8, 0.9);
+/*
+sound.init(biloScene);*/
+
+world.init(biloScene);
+//game.init(biloScene);
+camera.init(biloScene);
+//compass.init(biloScene, base);
+base.init(biloScene);
+/*basePlane.init(biloScene);
+blockodile.init(biloScene);
+numbers.init(biloScene);
+ble.init();
+animateWinning.init(biloScene);*/
+
+
+/*guiPaint.init(biloScene);
+
+guiGame.init(biloScene);
+
+
+guiSettings.init(biloScene);
+help.init(biloScene);
+
+guiColorSelect.init(biloScene, base);*/
+base.init
+/*projection.init(biloScene);
+
+guiProgramming.init(biloScene);*/
+
+
+/*
+let scene = biloScene;
+
+    var advancedTextureFPS = BABYLON.GUI.AdvancedDynamicTexture.CreateFullscreenUI("UI");
+    
+    textFps = new BABYLON.GUI.TextBlock();
+    textFps.text = "FPS: ";
+    textFps.color = "white";
+    textFps.textHorizontalAlignment = BABYLON.GUI.Control.HORIZONTAL_ALIGNMENT_RIGHT;
+    textFps.textVerticalAlignment = BABYLON.GUI.Control.VERTICAL_ALIGNMENT_BOTTOM;
+
+    textFps.fontSize = 24;
+    advancedTextureFPS.addControl(textFps);    
+
+    fpsTimeOut = setTimeout(guiFpsFunction, 1000);
+
+
+function guiFpsFunction() {
+    
+    textFps.text = "FPS: " + fpsCounter;
+    clearTimeout(guiFpsFunction);
+    
+    guiFps = fpsCounter;
+    fpsCounter = 0;
+    fpsTimeOut = setTimeout(guiFpsFunction, 1000);
+    
+}*/
+
+
+/*
+var advancedTextureBattery = BABYLON.GUI.AdvancedDynamicTexture.CreateFullscreenUI("UI");
+    
+        textBattery = new BABYLON.GUI.TextBlock();
+        textBattery.text = "Battery: ";
+        textBattery.color = "white";
+        textBattery.textHorizontalAlignment = BABYLON.GUI.Control.HORIZONTAL_ALIGNMENT_RIGHT;
+        textBattery.textVerticalAlignment = BABYLON.GUI.Control.VERTICAL_ALIGNMENT_CENTER;
+    
+        textBattery.fontSize = 24;
+        advancedTextureBattery.addControl(textBattery);    
+
+
+
+
+        //GUI ---
+
+        var advancedTexture = BABYLON.GUI.AdvancedDynamicTexture.CreateFullscreenUI("UI");*/
+
+ 
+
+  /*  function consolePrint(tmpString, tmpArray){
+
+            
+
+        for(var i = 0; i <blocksCount; i++){
+    if(i!=0){
+        tmpString += ",";
+    } 
+    tmpString += tmpArray[i];
+}
+
+tmpString += "];";
+console.log(tmpString);
+
+}*/
+
+    //-----------------------
+    /*
+    var buttonPrintBlockConfig = BABYLON.GUI.Button.CreateSimpleButton("butPrint", "Print");
+    buttonPrintBlockConfig.width = "150px"
+    buttonPrintBlockConfig.height = "40px";
+    buttonPrintBlockConfig.paddingTop = "10px";
+    buttonPrintBlockConfig.paddingRight = "10px";
+    buttonPrintBlockConfig.color = "white";
+    buttonPrintBlockConfig.cornerRadius = 20;
+    buttonPrintBlockConfig.background = "green";
+    buttonPrintBlockConfig.horizontalAlignment = BABYLON.GUI.Control.HORIZONTAL_ALIGNMENT_CENTER;
+    buttonPrintBlockConfig.verticalAlignment = BABYLON.GUI.Control.VERTICAL_ALIGNMENT_TOP;   
+
+    let alevel = 1;
+    let adifficulty = 4;
+    let astage = 0;
+
+    buttonPrintBlockConfig.onPointerUpObservable.add(function() {
+
+
+
+
+    world.printBlock(alevel, adifficulty, astage);
+    astage++;
+
+    });
+
+    advancedTexture.addControl(buttonPrintBlockConfig); */
+    //-----------------------
+    
+ 
+
+
+    biloScene.onPointerMove = function (evt, pickResult){
+
+      /*  guiSettings.pointerMove();
+        guiGame.pointerMove();
+        guiColorSelect.pointerMove();
+        guiPaint.pointerMove();
+        guiProgramming.pointerMove();*/
+                   
+    };
+
+    biloScene.onPointerDown = function (evt, pickResult) {
+        camera.pointerDown();
+      /*  guiSettings.pointerDown();
+        guiGame.pointerDown();  
+        guiColorSelect.pointerDown(pickResult);
+        guiPaint.pointerDown();
+        guiProgramming.pointerDown();*/
+       
+
+    };
+
+               
+    biloScene.onPointerUp = function (evt, pickResult) {
+                    camera.pointerUp();
+                    /*guiSettings.pointerUp();
+                    guiGame.pointerUp();
+                    guiColorSelect.pointerUp();
+                    guiPaint.pointerUp();
+                    guiProgramming.pointerUp();*/
+                     
+    };
+
+        engine.runRenderLoop(function () {
+
+           //compass.render();  
+            base.render();
+            world.render();            
+           /* game.render();
+            activeGame.render();           
+           fpsCounter++;*/
+            biloScene.render();
+        });
+
+        window.addEventListener("resize", function () {
+            engine.resize();
+        });
+
+
+        
+    </script>
+ </body>
+</html>
